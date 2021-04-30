@@ -12,7 +12,8 @@ app.use(bodyParser.json());
 app.use(router);
 
 app.listen(PORT, () => {
-  console.log(`listening on port ${PORT}`)
+  console.log(`listening on port ${PORT}`);
+  console.log(`test auto deployed`)
 });
 
 module.exports = app
